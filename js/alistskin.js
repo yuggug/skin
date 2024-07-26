@@ -11,7 +11,7 @@ $("html").click(function() {if (x) {var title = document.title,
 // 个人信息编写区域+星环博客提供技术支持+ —————— ON
 
     // 头像链接地址
-    headimg = "https://file.xhto.cn/xpretty/images/himg.jpg",
+    headimg = "https://cdn.jsdelivr.net/gh/yuggug/alist-picture@main/ming%20transparent%20ico.png",
     // 博主铭言句子
     motto = "不理白驹过隙，不信生死有命！",
     // 配置 - 导航内容及链接【注：名称和链接需要一一对应，用英文逗号隔开】
