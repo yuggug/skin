@@ -11,7 +11,7 @@ js - alistSkin.js 配置
 ``` 
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/yuggug/skin/css/alistskin.css"/>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/yuggug/skin/js/alistskin.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/yuggug/skin/js/jquery.js"></script>    
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/yuggug/skin/js/jquery.mian.js"></script>    
 ```
 
 
