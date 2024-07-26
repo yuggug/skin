@@ -2,25 +2,22 @@
  * name : Future
  * edition : 2.0.2
  * message : 前端美化样式由星环[Future]提供，程序由Alist创始者友情提供
- * technical support : https://www.xhto.cn/
+ * technical support : https://nav.666986.xyz/
  */
 
 var x = true;
-var conarr = ["星环博客-云盘美化包","https://www.xhto.cn/"];
+var conarr = ["星孤独的键","https://nav.sob.im/"];
 $("html").click(function() {if (x) {var title = document.title,
 // 个人信息编写区域+星环博客提供技术支持+ —————— ON
 
     // 头像链接地址
-    headimg = "https://cdn.jsdelivr.net/gh/yuggug/alist-picture@main/ming%20transparent%20ico.png",
+    headimg = "https://raw.githubusercontent.com/beer-on-fire/alist-v2-skin/main/img/avatar.png",
     // 博主铭言句子
-    motto = "不理白驹过隙，不信生死有命！",
+    motto = "白天搞笑的废物，晚上抑郁的怪物。",
     // 配置 - 导航内容及链接【注：名称和链接需要一一对应，用英文逗号隔开】
-    linkname = ["首页", "星环博客"],
-    link = ["/", "https://www.xhto.cn/"],
     code = "";
 
 // 个人信息编写区域+星环博客提供技术支持+ —————— END
-
 
 code += '<h3>'+title+'</h3>';code += '<div id="uxhdimg"><img src="'+headimg+'" alt="['+title+']" /></div>';code += '<p>'+motto+'</p>';code += '<ul>';
 for (vo in linkname) { code += '<li><a href="'+link[vo]+'">'+linkname[vo]+'</a></li>'; } code += '</ul>';
